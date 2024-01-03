@@ -27,12 +27,10 @@ public class BOJ_2669 {
         int result = 0;
         for(int i = 0 ; i < 100 ; i++){
             for(int j = 0 ; j < 100 ; j++){
-//                System.out.print(arr[i][j]+" ");
                 if(arr[i][j] == 1){
                     result++;
                 }
             }
-//            System.out.println();
         }
 
         System.out.println(result);
